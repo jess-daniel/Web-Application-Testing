@@ -7,7 +7,6 @@ import Dasboard from "./components/Dashboard";
 function App() {
   const [balls, setBalls] = useState(0);
   const [strikes, setStrikes] = useState(0);
-  const [fouls, setFouls] = useState(0);
 
   const handleHit = () => {
     setStrikes(0);
